@@ -1,0 +1,675 @@
+/*Tas kurio reikia*/
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+/*VISAM PUSLAPIUI PRISKIRIAMOS TAISYKLES:*/
+html,body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; 
+    color:  #062033; 
+}
+
+h1 {    
+    font-size: 1rem;
+    color:#fff;
+    text-align: center;
+    font-weight:800;
+    margin: 0;
+}
+h2 {
+    font-size: 1.75rem;
+    color:#0eb493;
+    text-align: center;
+    font-weight:800;
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;      
+}
+
+.slogan{
+    font-weight: 800; 
+    color:#ffffff ;
+    font-size: 3.9rem;
+    text-align: center;   
+}
+
+h3{
+    font-size: 3rem;
+    color:#ffffff ;
+    text-align: center;
+    font-weight:300;  
+}
+
+
+h5{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left; 
+}
+h6{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+/*HEADERis starts*/
+
+.header {
+
+    background-position: center;     
+/*    centravimas paveiksliuko !*/
+    padding-top: 1px;
+    width:100%;
+/*     display:none;*/
+    
+}
+
+.hero{
+        height: 100vh;
+}
+
+
+.container {
+   max-width: 1100px;
+   padding: 20px 20px; 
+/*    kad nepriliptu prie kampu mazejant ekrano dydziui */
+  margin: 0 auto;/* centruoja automatiskai priklausomai nuo ekrano*/
+/*    display: none;*/
+}   
+    
+.menu{
+    position:absolute;
+    z-index: 2;   
+    width: 100%;
+    left: 50%;
+    transform:translateX(-50%);
+    }  
+
+
+.main-message{
+    margin-top: 40px;  
+}
+
+.owl-carousel img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+#owl-demo .item {
+    display: block;
+    width: 100%;
+    height: 90vh;
+/*    background: 90vh;*/
+   background-size: cover;
+}
+
+.header .container{
+      justify-content: center;  
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+}
+
+.header li a {
+   
+    display: block;
+    padding: 10px 20px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;  
+    font-weight: 800;
+}
+
+.flex {
+  
+    display: flex;
+    flex-wrap: wrap;
+/*    flex-direction: row; */
+
+}
+
+/*Header END*/
+
+
+/*Trys idejos starts*/
+
+
+.trys.idejos{
+    background-color:#f4f7f9;
+    padding-top: 20px;
+    width:100%;
+}
+
+.container.visos{
+       width:100%;
+}
+
+
+.plonesne{
+    font-weight:400;   
+}
+
+.idejos-content{
+    padding: 20px 20px 20px 5px;
+    width: 100%;
+    justify-content: center;  
+}
+
+
+.ideja{
+    width: 30%;
+    height: 25%;  
+}
+
+.icon{
+    color:#0eb493;
+}
+
+.idea{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+h4{
+    font-size: 1.25rem;
+    text-align: center;   
+}
+
+
+/*Trys idejos ENDS*/
+
+
+/*VISOKIE PATARIMAI DALIS:*/
+
+.centerIcon{
+    text-align: center;
+  
+    color:#c3c6c7;
+}    
+
+.center{ 
+    text-align: center;
+    width:100%; 
+}
+
+a:link {
+    text-decoration: none;
+    color:#062033;
+}
+
+a:visited {
+    text-decoration: none;
+     color:#062033;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+    
+
+/*Rodykle*/
+
+.news-nav .temos{
+     width: 100%;
+    
+}
+
+.news-nav ul{
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.news-nav li a {
+   
+    display: block;
+    padding: 5px 10px;
+    color: #062033;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 0.875rem;    
+}
+ .news-nav li a:hover {
+    background-color: #0eb493;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+         
+}
+
+.col h4: :first-letter{
+    text-transform: uppercase;
+}
+
+
+.hide{
+    display: none;
+}
+/*
+.show{
+    display :block;
+}
+*/
+/*Rodykle ends*
+/*tekstai*/
+.news-text-content {
+    flex-wrap: wrap;
+/*   padding-left:30px;*/
+   
+/*    justify-content: space-between;*/
+/*    justify-content: center;*/     
+}
+
+.news-text-content .col{
+    padding:5px;
+    width: 25%;   
+}
+
+.news-pic img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35vh;
+}
+ 
+}
+/*
+naujienu tekstu  paveiksliukai
+*/
+.news-text .col img{
+    border-radius: 5%;
+    height: 300px;
+    width: 400px;
+    
+}
+.image-center{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.container-news{
+    margin: 0;
+    width:100%;
+    
+}
+.sizing{
+    min-height: 75px;
+}
+
+/*naujienos paragrafo teksto taisykles*/
+.news-item-text{
+    
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
+    word-wrap: break-word;
+    min-height: 90px;
+  
+}
+
+/*Apie ka raso kiti*/
+		other-sources-section{
+    width: 100;
+    margin: 0 auto;
+}
+
+.other-sources {
+   flex-wrap: wrap;
+   
+}
+.other-sources .col{
+    width: 25%;
+    position: relative;
+    padding:10px;
+}
+
+.other-sources img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+.minHeigth{
+    min-height: 80px;
+}
+
+
+/*uzsklanda*/
+
+.uzsklanda {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #0eb493;
+}
+
+.container :hover .overlay {
+	opacity: 0.7;
+}
+
+.text {
+	color: white;
+	font-size: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*faktai*/
+
+
+.all-facts{
+    width:100%;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(169,169,169, 0.9);
+    padding-bottom: 30px;
+    
+}
+.facts{
+
+ background-image: url("../images/sumazinti/plastic_images.jpg");
+    width:100%;
+    height: 100%;
+    padding:30px 0px;
+}
+
+.single.fact{
+    width:20%;
+/*    background-color:blue;*/
+    align-content: center;
+ }
+
+.number{
+   
+    color:#0eb493;
+    font-weight: 400;
+    font-size: 3.75rem;
+    text-align: center;
+}
+.icon-center {
+   
+    text-align:center;
+    color:#fff; 
+    font-size: 2rem;  
+}
+
+.description{
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#fff;
+    text-align: center;
+}
+
+.far{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+/*zemelapis*/
+
+.map-container{
+    margin: 0 auto;
+    padding:10px 30px;
+    background-image: url("../images/sumazinti/DSC03126-tile.jpg");
+    min-height: 50vh;
+    width: 100%;
+}
+
+
+iframe{
+     margin: 0 auto;
+     height: 500px;
+     width: 100%;  
+}
+
+.Maps{
+    padding-top:20px;
+}
+
+.footer{
+    background-color: #1ea78d;
+    min-height: 30vh;
+    width: 100%;
+    padding: 0 30px;
+/*    display: none;*/
+  
+}
+
+.twoColumns{
+    width:100%;
+}
+
+.twoColumns .column{
+    width: 50%;   
+} 
+                     
+.footer-container{
+    
+/*sitas padingas atitraukia, bet uzdejus didesni netelpa i maza ekrana*/
+    padding:30px 120px; 
+    color: #ffffff;
+    font-size:13px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;            
+}
+
+.footer-column{
+    width: 23%;
+    font-size:13px;    
+}
+
+.up{
+    margin-top:70px;
+}
+
+.black{color:black;
+}
+
+
+input{
+/*    width: 70%;*/
+/*    height: 40px;*/
+    background-color: #1ea78d;
+    border: 1px solid white; 
+  
+}
+#email{
+      font-family: "FontAwesome";
+}
+
+
+/*BURGER MENU*/*/
+
+}
+.nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.burger{
+    display: none;
+    font-size: 2rem;
+  text-align: center;
+}
+
+
+/*maziausiems ekranams*/
+
+@media all and (max-width:767px){
+	.news-text-content .col{
+			width: 100%;
+	} 
+
+	h3{font-size: 30px;
+	}
+
+	.footer-column img {
+	width: 100%;
+	}
+
+	.footer-column{
+			width: 100%;  
+			padding:5px;
+	}
+
+	.number{
+
+	font-size: 20px;
+	}
+
+	.description{
+
+	font-size: 11px;
+	}
+
+	h4{
+	font-size: 0.9rem;
+	}
+
+	.other-sources .col{
+	 width: 100%;
+	}
+
+	.footer-container{ 
+			padding:30px 10px; 
+	}
+
+	.nav{
+			display: none;
+			flex-wrap: wrap;
+			text-align: center;
+	}
+
+	.nav.show{
+			 display: inline;
+	}
+
+	.menu-item{
+			padding: 0px 0px;
+			background-color: rgba(255,255,255, 0.3);
+	}
+
+	.slogan{
+		 font-size: 1rem;
+		 margin-top: 180px;
+	}
+
+	.burger{
+	display: block;
+	color:white;
+	align-self: center;
+	}
+
+	.header-nav{
+	width:30%;
+	height: 140px;
+	}
+
+	.menu{
+			width:80%;
+		 align-items: center;
+	}
+
+
+	.header li a {
+
+	display: inline;
+	padding: 5px 5px;
+	font-size: 0.5rem;  
+	font-weight: 800;
+	}
+
+	.ideja{
+	width: 100%;
+	}
+
+	.icon{
+	 margin:0px auto;
+	}
+	.news-pic img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35vh;
+	}
+
+}   
+
+   
+/*maziausiems ekranams ENDS*/
+
+
+
+/* didesniems ir dideliems ekranams*/
+
+@media all and (min-width:768px ) and (max-width:1024px){
+
+
+	.news-text-content .col{
+					width: 50%;
+	}
+	.other-sources .col{
+	width: 50%;
+
+	}
+
+	h4{
+	font-size: 0.9rem;
+	}  
+
+	.footer-column{
+	width: 50%;    
+	padding: auto;      
+
+	}
+
+}
+
